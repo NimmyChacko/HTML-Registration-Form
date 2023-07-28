@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        h1{
+            color:blue;
+        }
+        legend{color:purple; border-color}
+    </style>
+    <link rel="shortcut icon" href="./download.png" type="image/x-icon">
+    <title>HTML Form</title>
+<link rel="stylesheet" href="./CSS Intro.css">
+</head>
+<h1>Feedback Form</h1>
+<body>
+    <form>
+        
+        <fieldset>
+            <legend>
+                <h2>Personal information</h2>
+            </legend>
+
+            <div>
+                <label for="First name" id="Fir">First name</label>
+                <input type="text" name="" placeholder="Your first name here" id="First name">
+            </div>
+            <br>
+            <div>
+                <label for="Surname">Surname</label>
+                <input type="text" name="" id="Surname">
+            </div>
+                    <br>
+               
+                <div>
+                    <label for="DOB"> Date of birth</label>
+                    <input type="date" name="" id="DOB">
+                </div>
+                <br>
+                <div>
+                    <label for="gender">Gender</label>
+                    <br>
+                    <input name="x" type="radio" id="Male">
+                    <label for="Male">Male</label>
+
+                    <input type="radio" name="x" id="Female">
+                    <label for="Female">Female</label>
+                </div>
+                <br>
+                <div>
+                    <label for="pno">Phone number</label>
+                    <input type="number" name="" id="pno">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="" id="Email">
+                </div>
+                <br>
+                <div>
+                <label for="Address">Address</label>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+            </div>
+            <br>
+            <br>
+            <label id="lang" for="lang"><strong>Languages known</strong></label>
+<br>
+<br>
+<div>
+    <li>
+            <label class="languages"for="Eng">English</label>
+            <input  class="check" type="checkbox" name="lang1" id="Eng"/>
+        </li>
+            <br>
+        <li>
+            <label for="Hin" class="languages">Hindi </label>
+            <input  class="check" type="checkbox" name="lang2" id="Hin"/>
+        </li>
+            <br>
+            <li>
+            <label for="Mal" class="languages">Malayalam</label>
+            <input  class="check" type="checkbox" name="lang3" id="Mal"/>
+        </li>
+            <br>
+            <li>
+            <label for="Fre" class="languages">French</label>
+            <input  class="check" type="checkbox" name="lang4" id="Fre"/>
+            </li>
+        <br>
+        <li>
+            <label for="Span" class="languages">Spanish</label>
+            <input  class="check" type="checkbox" name="lang5" id="Span"/>
+        </li>
+          </div>
+            <br>
+
+            <div>
+            <label for="Career Fields"><strong>Interested Career Fields</strong></label>
+            <br>
+            <br>
+                <select
+                    name="Interested Career Fields" id="Career Fields" multiple>
+                    <option value="A">Accountancy,Banking &Finance</option>
+                    <option value="B">Business,Consulting & Management</option>
+                    <option value="C">Creative arts and design</option>
+                    <option value="E">Engineering and manufacturing</option>
+                    <option value="H">Healthcare</option>
+                    <option value="Hosp">Hospitality and events management</option>
+                    <option value="IT">Information technology</option>
+                    <option value="Law">Law</option>
+                    <option value="R">Recruitment and HR</option>
+                    <option value="RS">Retail/Sales</option>
+                  </select>
+            </div>
+            <br>
+            <button type="button">Submit</button>   
+        </fieldset>
+    </form>
+</body>
+</html>
